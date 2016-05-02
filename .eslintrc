@@ -1,0 +1,10 @@
+parser: 'babel-eslint'
+extends: 'standard'
+env:
+  browser: true,
+  es6: true
+rules:
+  indent: ['warn', 4]
+  quotes: ['warn', 'single']
+  semi: ['error', 'always']
+  space-before-function-paren: [0]
