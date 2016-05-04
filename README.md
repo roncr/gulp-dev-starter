@@ -29,5 +29,6 @@ Start prod build
 * Support unit testing
 * Create angular fork
 * solve the double execution of webpack
+* factor out the target directories from webpack config files
 * experiment add font awesome
 * experiment add bootstrap
