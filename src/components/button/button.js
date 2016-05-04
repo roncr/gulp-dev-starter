@@ -1,12 +1,7 @@
 class Button {
-    constructor() {
-        console.log('new Button');
-    }
-
     test () {
-        console.log('test');
+        return 'Button built successfully!';
     }
 }
 
-var btn = new Button();
-btn.test();
+export default Button;

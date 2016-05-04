@@ -26,7 +26,8 @@ Start prod build
 
 * A more meaningful example in the app
 * Watch file changes
-* Live reload
 * Support unit testing
 * Create angular fork
-* improve the separation of prod tasks
+* solve the double execution of webpack
+* experiment add font awesome
+* experiment add bootstrap

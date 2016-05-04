@@ -1,12 +1,7 @@
 class Card {
-    constructor() {
-        console.log('new Card');
-    }
-
     test () {
-        console.log('test');
+        return 'Card built successfully!';
     }
 }
 
-var crd = new Card();
-crd.test();
+export default Card;

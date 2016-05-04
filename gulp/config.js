@@ -5,7 +5,7 @@ export default {
     banner:
         '/*!\n' +
         ' * Gulp Dev Starter\n' +
-        ' * https://github.com/\n' +
+        ' * https://github.com/roncr/gulp-dev-starter/\n' +
         ' * @license MIT\n' +
         ' * v' + VERSION + '\n' +
         ' */\n\n',
@@ -39,5 +39,10 @@ export default {
     cssOutputFile: 'css/style.css',
     devServer: {
         port: 3005
+    },
+    tasks: {
+        js: {
+            entry: './src/components/app.js'
+        }
     }
 }
