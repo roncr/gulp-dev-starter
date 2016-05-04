@@ -26,7 +26,6 @@ Start prod build
 
 * A more meaningful example in the app
 * Watch file changes
-* Deploy with a server
 * Live reload
 * Support unit testing
 * Create angular fork

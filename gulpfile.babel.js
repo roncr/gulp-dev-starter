@@ -12,6 +12,7 @@ import fs from 'fs';
  *      - html
  *      - assets
  *          - images
+ *      - serve
  *
  */
 

@@ -36,5 +36,8 @@ export default {
     imageOutputDir: 'dist/assets/images/',
     assetsOutputDir: 'dist/assets/',
     jsOutputFile: 'script.js',
-    cssOutputFile: 'css/style.css'
+    cssOutputFile: 'css/style.css',
+    devServer: {
+        port: 3005
+    }
 }

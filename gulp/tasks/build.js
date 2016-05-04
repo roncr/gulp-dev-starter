@@ -7,5 +7,6 @@ export function task () {
         'build-js',
         'html',
         'assets',
-        'build-index');
+        'build-index',
+        'serve');
 }
