@@ -29,3 +29,4 @@ Start prod build
 * Live reload
 * Support unit testing
 * Create angular fork
+* improve the separation of prod tasks
