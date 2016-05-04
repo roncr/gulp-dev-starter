@@ -8,7 +8,7 @@ export default {
         ' * https://github.com/\n' +
         ' * @license MIT\n' +
         ' * v' + VERSION + '\n' +
-        ' */\n',
+        ' */\n\n',
     isProd: args.prod,
     indexFile: 'src/index.html',
     htmlFiles: [
@@ -19,7 +19,7 @@ export default {
         '!src/components/**/*.spec.js'
     ],
     scssFiles: [
-        'src/style/base/**/*.scss',
+        'src/style/**/*.scss',
         'src/components/**/*.scss'
     ],
     imageFiles: [

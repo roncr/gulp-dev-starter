@@ -18,13 +18,17 @@ export function task() {
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError())
         .pipe(concat(config.cssOutputFile))
-        .pipe(sass.sync().on('error', sass.logError))
+        .pipe(sass({
+            includePaths: [
+                "./node_modules/normalize.css"
+            ]
+        }).on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['last 2 versions']
         }))
         .pipe(insert.prepend(config.banner))
         .pipe(config.isProd ? sourcemaps.init() : util.noop())
-        .pipe(config.isProd ? cssnano() : util.noop())
+        .pipe(config.isProd ? cssnano({autoprefixer: false}) : util.noop())
         .pipe(config.isProd ? sourcemaps.write('.') : util.noop())
         .pipe(gulp.dest(config.outputDir));
 }
